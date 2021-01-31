@@ -1,0 +1,52 @@
+.avatar{
+    background-color: rgb(4, 4, 92);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+.avatar_div{
+    display: inline-block;
+    padding: 15px;
+    background-color:rgb(4, 4, 92);
+    border-radius: 50%;
+}
+.roundcard p{
+    font-size: 0.7rem;
+    color: rgb(73, 72, 72);
+    position: relative;
+    left: -20px;
+}
+.corner{
+    z-index:2;
+    position: relative;
+    top: -40px;
+    left:-40px;
+    
+    
+}
+
+@media screen and (max-width:720px){
+    
+    .avatar{
+        width: 35px;
+        height: 35px;
+    }
+    .corner{
+        top: -30px;
+    }
+    .roundcard p{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:390px){
+    .avatar{
+        width: 20px;
+        height: 20px;
+    }
+    .corner{
+        top: -20px;
+    }
+    .roundcard p{
+        font-size: 0.4rem;
+    }
+}

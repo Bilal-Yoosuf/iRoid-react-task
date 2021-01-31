@@ -1,0 +1,73 @@
+.secondpage_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 145px;
+}
+.secondpagebottom_grid{
+    height: 521px;
+    max-width: 1000px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    grid-template-rows: 35% 35% 10%;
+}
+.secondpage_h4{
+    color: rgb(73, 72, 72);
+    text-align: center;
+    position: relative;
+    left:-20px;
+}
+.secondpage_button{
+    max-width:168px;
+    height:48px;
+    border-radius: 10px;
+    background-color: rgb(13, 6, 105);
+    color: white;
+    border:none;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0px;
+    left: -20px;
+}
+.secondpage_button_div{
+    grid-column-start: 3;
+
+}
+
+@media screen and (max-width:650px){
+
+.secondpagebottom_grid{
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(6,1fr);
+}
+.secondpage_button_div{
+    grid-column-start: 2;
+    margin-top: 30px;
+}
+.secondpage_button{
+    max-width:130px;
+    height:38px;
+    font-size: 0.7rem;
+}
+}
+@media screen and (max-width:390px){
+    .secondpage_button{
+        max-width:80px;
+        height:20px;
+        font-size: 0.45rem;
+        top: -60px;
+        left: -60%;
+    }
+    .secondpagebottom_grid{
+        margin-left: 4vw;
+        margin-top: -50px;
+    }
+    .secondpagebottom_grid{
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-rows: repeat(8,1fr);
+    }
+    .secondpage_h4{
+        top: -50px;
+        left: 0px;
+    }
+}

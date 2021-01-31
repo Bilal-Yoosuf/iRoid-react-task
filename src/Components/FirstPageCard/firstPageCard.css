@@ -1,0 +1,76 @@
+.firstpagecard{
+    max-width: 455px;
+    
+}
+.firstpagecard_box{
+    max-width: 300px;
+    margin-left: 50px;
+    position: relative;
+    top: 15px;
+}
+.firstpagecard_head{
+    text-align: left;
+    padding-left: 10px;
+}
+.firstpagecard_smallhead{
+    font-weight: bolder;
+    font-size: 0.8rem;
+
+
+}
+.firstpagecard_bighead{
+    font-size: 1.5rem;
+    position: relative;
+    top: -30px;
+    margin-bottom: 0px;
+}
+.firstpagecard_intro{
+    position: relative;
+    top: -35px;
+    font-size: 0.8rem;
+    color: rgb(66, 66, 66);
+}
+.firstpagecard_button_div{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    text-align: left;
+}
+.firstpagecard_button{
+   width: 80px;
+   height: 30px;
+   border-radius: 20px;
+   border: 2px solid rgb(92, 91, 91);
+   color:  rgb(92, 91, 91);
+}
+
+@media screen and (max-width:664px){
+    .firstpagecard_box{
+        margin-left: 3vw;
+    }
+}
+@media screen and (max-width:486px){
+    .firstpagecard_bighead{
+        font-size: 0.9rem;
+        top: -25px;
+        margin-bottom:10px;
+        ;
+    }
+    .firstpagecard_smallhead{
+        font-size: 0.5rem;
+        margin-bottom: 25px;
+        
+    }
+    .firstpagecard_intro{
+        font-size: 0.4rem;
+        line-height: 10px;
+        
+    }
+    .firstpagecard_button{
+        width: 50px;
+        height: 30px;
+        font-size: 0.6rem;
+
+    }
+   
+}

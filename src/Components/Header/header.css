@@ -1,0 +1,121 @@
+.header{
+    width: 100%;
+    height: 93px;
+    background-image: linear-gradient(to right , rgb(4, 4, 104),rgb(8, 8, 185));
+    
+}
+.header_image{
+    float: left;
+    margin: 10px 100px;
+    margin-right: auto;
+}
+.header_nav{
+    max-width: 600px;
+    height: 40px;
+    float: right;
+    display: flex;
+    flex-direction:row;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 0%;
+    font-size: 0.9rem;
+    
+}
+.header_homePic{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    
+}
+.header_homepic_pic{
+    position: relative;
+    padding: 5px;
+}
+
+  .header_nav_options{
+      margin-left: 30px;
+      
+  }
+
+  .header_nav_options a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      
+
+  }
+  .header_headphone_pic{
+      width: 12px;
+      height: 12px;
+      padding: 12px;
+      padding-left: 16px;
+      background-color: black;
+      border-radius: 45% 0 0 45%;
+      position: relative;
+      right: 0;
+      margin-right: 0;
+      margin-bottom:40px;
+      margin-top: -5px;
+  }
+
+  @media screen and (max-width:826px){
+          .header_image{
+              scale: (0.8);
+              margin-left: 20px;
+              max-width:200px ;
+              max-height: 50px;
+          }
+  }
+  @media screen and (max-width:712px){
+     .header_nav_options{
+        margin-left: 10px;
+        
+    }
+    .header_nav_options a{
+        font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width:558px){
+    .header_nav_options{
+       margin-left: 5px;
+       
+   }
+   .header_nav_options a{
+       font-size: 0.6rem;
+       margin-left: 0;
+   }
+ }
+ @media screen and (max-width:476px){
+    .header_image{
+        
+        margin-left: 3px;
+        max-width:100px ;
+        max-height: 40px;
+        margin-top: 20px;
+    }
+ }
+ @media screen and (max-width:372px){
+    .header_image{
+        
+        margin-left: 3px;
+        max-width:70px ;
+        max-height: 40px;
+        margin-top: 30px;
+    }
+    .header_homePic{
+        scale: (0.8);
+    }
+    .header_nav_options a{
+        display: none;
+    }
+ }

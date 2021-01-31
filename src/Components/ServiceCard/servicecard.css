@@ -1,0 +1,67 @@
+.servicecard {
+  max-width: 335px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+.servicecard_box {
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  height: 350px;
+}
+.servicecard_image_div {
+  position: relative;
+  top: -100px;
+}
+.box_head {
+  color: rgb(88, 87, 87);
+  size: 1rem;
+  position: relative;
+  top: -80px;
+}
+.box_intro {
+  text-align: left;
+  color: rgb(88, 87, 87);
+  font-size: 0.8rem;
+  position: relative;
+  top: -80px;
+  max-width: 300px;
+  margin: 10px auto;
+}
+.center {
+  position: relative;
+  top: -50px;
+}
+.arrow {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 1175px) {
+  .box_head {
+    font-size: 0.8rem;
+  }
+  .box_intro{
+      font-size: 00.7rem;
+      margin-left: 10px;
+  }
+  .center {
+    position: relative;
+    top: 0px;
+  }
+  .arrow{
+      bottom: 10px;
+  }
+}
+@media screen and (max-width:800px){
+    .servicecard{
+        margin:70px auto;
+    }
+}
+@media screen and (max-width:320px){
+    .servicecard{
+        max-width: 250px;
+    }
+}
